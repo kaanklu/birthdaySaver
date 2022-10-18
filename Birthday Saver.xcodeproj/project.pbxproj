@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CDA15ED28FED29600B4CBAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA15EC28FED29600B4CBAF /* AppDelegate.swift */; };
+		8CDA15EF28FED29600B4CBAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA15EE28FED29600B4CBAF /* SceneDelegate.swift */; };
+		8CDA15F128FED29600B4CBAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA15F028FED29600B4CBAF /* ViewController.swift */; };
+		8CDA15F428FED29600B4CBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDA15F228FED29600B4CBAF /* Main.storyboard */; };
+		8CDA15F628FED29700B4CBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CDA15F528FED29700B4CBAF /* Assets.xcassets */; };
+		8CDA15F928FED29700B4CBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDA15F728FED29700B4CBAF /* LaunchScreen.storyboard */; };
+		8CDA160428FED29700B4CBAF /* Birthday_SaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA160328FED29700B4CBAF /* Birthday_SaverTests.swift */; };
+		8CDA160E28FED29700B4CBAF /* Birthday_SaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA160D28FED29700B4CBAF /* Birthday_SaverUITests.swift */; };
+		8CDA161028FED29700B4CBAF /* Birthday_SaverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA160F28FED29700B4CBAF /* Birthday_SaverUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CDA160028FED29700B4CBAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CDA15E128FED29600B4CBAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CDA15E828FED29600B4CBAF;
+			remoteInfo = "Birthday Saver";
+		};
+		8CDA160A28FED29700B4CBAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CDA15E128FED29600B4CBAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CDA15E828FED29600B4CBAF;
+			remoteInfo = "Birthday Saver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CDA15E928FED29600B4CBAF /* Birthday Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birthday Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDA15EC28FED29600B4CBAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CDA15EE28FED29600B4CBAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8CDA15F028FED29600B4CBAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CDA15F328FED29600B4CBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CDA15F528FED29700B4CBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CDA15F828FED29700B4CBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CDA15FA28FED29700B4CBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CDA15FF28FED29700B4CBAF /* Birthday SaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Birthday SaverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDA160328FED29700B4CBAF /* Birthday_SaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday_SaverTests.swift; sourceTree = "<group>"; };
+		8CDA160928FED29700B4CBAF /* Birthday SaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Birthday SaverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDA160D28FED29700B4CBAF /* Birthday_SaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday_SaverUITests.swift; sourceTree = "<group>"; };
+		8CDA160F28FED29700B4CBAF /* Birthday_SaverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday_SaverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CDA15E628FED29600B4CBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDA15FC28FED29700B4CBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDA160628FED29700B4CBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CDA15E028FED29600B4CBAF = {
+			isa = PBXGroup;
+			children = (
+				8CDA15EB28FED29600B4CBAF /* Birthday Saver */,
+				8CDA160228FED29700B4CBAF /* Birthday SaverTests */,
+				8CDA160C28FED29700B4CBAF /* Birthday SaverUITests */,
+				8CDA15EA28FED29600B4CBAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CDA15EA28FED29600B4CBAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CDA15E928FED29600B4CBAF /* Birthday Saver.app */,
+				8CDA15FF28FED29700B4CBAF /* Birthday SaverTests.xctest */,
+				8CDA160928FED29700B4CBAF /* Birthday SaverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CDA15EB28FED29600B4CBAF /* Birthday Saver */ = {
+			isa = PBXGroup;
+			children = (
+				8CDA15EC28FED29600B4CBAF /* AppDelegate.swift */,
+				8CDA15EE28FED29600B4CBAF /* SceneDelegate.swift */,
+				8CDA15F028FED29600B4CBAF /* ViewController.swift */,
+				8CDA15F228FED29600B4CBAF /* Main.storyboard */,
+				8CDA15F528FED29700B4CBAF /* Assets.xcassets */,
+				8CDA15F728FED29700B4CBAF /* LaunchScreen.storyboard */,
+				8CDA15FA28FED29700B4CBAF /* Info.plist */,
+			);
+			path = "Birthday Saver";
+			sourceTree = "<group>";
+		};
+		8CDA160228FED29700B4CBAF /* Birthday SaverTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CDA160328FED29700B4CBAF /* Birthday_SaverTests.swift */,
+			);
+			path = "Birthday SaverTests";
+			sourceTree = "<group>";
+		};
+		8CDA160C28FED29700B4CBAF /* Birthday SaverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CDA160D28FED29700B4CBAF /* Birthday_SaverUITests.swift */,
+				8CDA160F28FED29700B4CBAF /* Birthday_SaverUITestsLaunchTests.swift */,
+			);
+			path = "Birthday SaverUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CDA15E828FED29600B4CBAF /* Birthday Saver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDA161328FED29700B4CBAF /* Build configuration list for PBXNativeTarget "Birthday Saver" */;
+			buildPhases = (
+				8CDA15E528FED29600B4CBAF /* Sources */,
+				8CDA15E628FED29600B4CBAF /* Frameworks */,
+				8CDA15E728FED29600B4CBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Birthday Saver";
+			productName = "Birthday Saver";
+			productReference = 8CDA15E928FED29600B4CBAF /* Birthday Saver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CDA15FE28FED29700B4CBAF /* Birthday SaverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDA161628FED29700B4CBAF /* Build configuration list for PBXNativeTarget "Birthday SaverTests" */;
+			buildPhases = (
+				8CDA15FB28FED29700B4CBAF /* Sources */,
+				8CDA15FC28FED29700B4CBAF /* Frameworks */,
+				8CDA15FD28FED29700B4CBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CDA160128FED29700B4CBAF /* PBXTargetDependency */,
+			);
+			name = "Birthday SaverTests";
+			productName = "Birthday SaverTests";
+			productReference = 8CDA15FF28FED29700B4CBAF /* Birthday SaverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CDA160828FED29700B4CBAF /* Birthday SaverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDA161928FED29700B4CBAF /* Build configuration list for PBXNativeTarget "Birthday SaverUITests" */;
+			buildPhases = (
+				8CDA160528FED29700B4CBAF /* Sources */,
+				8CDA160628FED29700B4CBAF /* Frameworks */,
+				8CDA160728FED29700B4CBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CDA160B28FED29700B4CBAF /* PBXTargetDependency */,
+			);
+			name = "Birthday SaverUITests";
+			productName = "Birthday SaverUITests";
+			productReference = 8CDA160928FED29700B4CBAF /* Birthday SaverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CDA15E128FED29600B4CBAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					8CDA15E828FED29600B4CBAF = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					8CDA15FE28FED29700B4CBAF = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 8CDA15E828FED29600B4CBAF;
+					};
+					8CDA160828FED29700B4CBAF = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 8CDA15E828FED29600B4CBAF;
+					};
+				};
+			};
+			buildConfigurationList = 8CDA15E428FED29600B4CBAF /* Build configuration list for PBXProject "Birthday Saver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CDA15E028FED29600B4CBAF;
+			productRefGroup = 8CDA15EA28FED29600B4CBAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CDA15E828FED29600B4CBAF /* Birthday Saver */,
+				8CDA15FE28FED29700B4CBAF /* Birthday SaverTests */,
+				8CDA160828FED29700B4CBAF /* Birthday SaverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CDA15E728FED29600B4CBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDA15F928FED29700B4CBAF /* LaunchScreen.storyboard in Resources */,
+				8CDA15F628FED29700B4CBAF /* Assets.xcassets in Resources */,
+				8CDA15F428FED29600B4CBAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDA15FD28FED29700B4CBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDA160728FED29700B4CBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CDA15E528FED29600B4CBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDA15F128FED29600B4CBAF /* ViewController.swift in Sources */,
+				8CDA15ED28FED29600B4CBAF /* AppDelegate.swift in Sources */,
+				8CDA15EF28FED29600B4CBAF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDA15FB28FED29700B4CBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDA160428FED29700B4CBAF /* Birthday_SaverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDA160528FED29700B4CBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDA160E28FED29700B4CBAF /* Birthday_SaverUITests.swift in Sources */,
+				8CDA161028FED29700B4CBAF /* Birthday_SaverUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CDA160128FED29700B4CBAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CDA15E828FED29600B4CBAF /* Birthday Saver */;
+			targetProxy = 8CDA160028FED29700B4CBAF /* PBXContainerItemProxy */;
+		};
+		8CDA160B28FED29700B4CBAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CDA15E828FED29600B4CBAF /* Birthday Saver */;
+			targetProxy = 8CDA160A28FED29700B4CBAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CDA15F228FED29600B4CBAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CDA15F328FED29600B4CBAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CDA15F728FED29700B4CBAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CDA15F828FED29700B4CBAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CDA161128FED29700B4CBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CDA161228FED29700B4CBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CDA161428FED29700B4CBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL7ZZA458A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Birthday Saver/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaan.Birthday-Saver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CDA161528FED29700B4CBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL7ZZA458A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Birthday Saver/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaan.Birthday-Saver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CDA161728FED29700B4CBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL7ZZA458A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaan.Birthday-SaverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birthday Saver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Birthday Saver";
+			};
+			name = Debug;
+		};
+		8CDA161828FED29700B4CBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL7ZZA458A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaan.Birthday-SaverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birthday Saver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Birthday Saver";
+			};
+			name = Release;
+		};
+		8CDA161A28FED29700B4CBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL7ZZA458A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaan.Birthday-SaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Birthday Saver";
+			};
+			name = Debug;
+		};
+		8CDA161B28FED29700B4CBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XL7ZZA458A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaan.Birthday-SaverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Birthday Saver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CDA15E428FED29600B4CBAF /* Build configuration list for PBXProject "Birthday Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDA161128FED29700B4CBAF /* Debug */,
+				8CDA161228FED29700B4CBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CDA161328FED29700B4CBAF /* Build configuration list for PBXNativeTarget "Birthday Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDA161428FED29700B4CBAF /* Debug */,
+				8CDA161528FED29700B4CBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CDA161628FED29700B4CBAF /* Build configuration list for PBXNativeTarget "Birthday SaverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDA161728FED29700B4CBAF /* Debug */,
+				8CDA161828FED29700B4CBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CDA161928FED29700B4CBAF /* Build configuration list for PBXNativeTarget "Birthday SaverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDA161A28FED29700B4CBAF /* Debug */,
+				8CDA161B28FED29700B4CBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CDA15E128FED29600B4CBAF /* Project object */;
+}
